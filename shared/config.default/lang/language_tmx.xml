@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+ <header datatype="PlainText" changedate="20120217T102000Z" creationtoolversion="1"
+           segtype="sentence"
+           creationtool="hand made"
+           creationid="NicolaAsuni"
+           srclang="EN"
+           adminlang="en-us"
+           creationdate="20111120T103000Z"
+           o-tmf="ABCTransMem"/>
+	<body>
+ 		<tu tuid="a_meta_charset" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>UTF-8</seg>
+			</tuv>
+		</tu>
+		<tu tuid="a_meta_dir" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ltr</seg>
+			</tuv>
+		</tu>
+		<tu tuid="a_meta_language" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>en</seg>
+			</tuv>
+		</tu>
+		<tu tuid="d_admin_index" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg></seg>
+			</tuv>
+		</tu>
+		<tu tuid="d_logout_desc" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>click on the button to exit the system</seg>
+			</tuv>
+		</tu>
+		<tu tuid="d_rackmap_desc" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap is a software solution for datacenter and server room asset management.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_add" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>add current record to database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_clone" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>clone current record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_add_image" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>insert selected image into text</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_add_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>insert selected object into text</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_add_tag" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>insert selected item</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_birth_date" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's date of birth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_birth_place" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's place of birth (city, state, country)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_cancel" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>cancel changes or the current operation</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_cancel_window" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>close form and cancels changes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_clear" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>reset form fields to blank</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_close_window" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>close window</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_continue" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>continue</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_database" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>modify database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_delete" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>delete current record from database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_display_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show all records</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_display_user_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show the data of the user</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_enabled" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>enable/disable current record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_execute" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>execute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_file_type" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>file type</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_file_type_xml" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>eXtensible Markup Language</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_file_type_csv" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Tab Delimited Text File</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_firstname" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's first name (e.g.: Michael, John, ...)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_fiscal_code" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's social security number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_group_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>users' group name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_guide" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>help</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_index" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>main page</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>about RackMap</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ip" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>IP address of the computer from which data have been sent</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ip_range" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>list of enabled IP addresses separated by commas (e.g.: 192.168.*.*,127.0.0.*,192.168.234.16-192.168.234.32,::ffff:c0a8:0110-::ffff:c0a8:0140)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_lastname" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>User's last name (example: Smith, Palmer, ...)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_level" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's level, level 0 indicates an anonymous user (not registered), level 1 indicates a basic user, level 10 indicates an administrator with full access rights</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_login_button" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>click here to log-in</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_login_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>username, name used to log in this multi-user system</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_logout_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>click on this link to exit the system (session end)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_object_width" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object width [pixels]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_object_height" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object height [pixels]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>password, alphanumeric code that together with the username grants access to this system</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_password_repeat" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>repeat the password in this field to check for possible typing mistakes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_pdf" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>generate a PDF document</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_pdf_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>generate a detailed report for each user</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_preview" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show a preview of the code previously entered</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_regcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>registration number, user's registration number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_regdate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's date of registration</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_result" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>shows the results</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_select_user" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>open a user selection page</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_submit" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>send form data to the calling process</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_update" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>update current data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_upload_image" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>specify the path of an image to be sent to the server</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_upload_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>specify the path of the file to be sent to the server</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_user_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show information related to the user connected</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_usered_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user's email address (e.g.: name@example.com)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_view_details" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show details</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_csv_export" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>export data to CSV (Tab delimited text file)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_xml_export" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>export data to XML</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_edit_group" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>In this form you can manage the different users' groups.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_edit_user" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>In this form you can manage the different users allowed to access the system. For each user you can choose a name, a password and an access level. Level 0 indicates an anonymous user (not registered), level 1 a basic user (e.g.: a student), level 10 an administrator with full access rights</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_email_result" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Send results to users by email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_import_xml_users" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can import users and groups from XML or CSV (tab delimited text) file. The file formats are the same as the ones obtained by exporting data from the Users Selection form.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_login" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>In order to access the different sections of RackMap you must log in using the name and password provided to you by the system administrator</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_online_users" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This form shows the users currently logged</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_select_users" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>In this form you can see and select the registered users. You can change the displayed sequence by clicking on the column names.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_sending_in_progress" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Email sending in progress. Please wait while the sending process completes.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_authorization_denied" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>AUTHORIZATION REFUSED!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_databasempty" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the database is empty!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_delete_anonymous" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the anonymous user cannot be deleted</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_delete_confirm" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>confirm deleting</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_delete_prohibited" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this record cannot be deleted</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_deleted" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the record has been removed from database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_different_passwords" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the passwords are different</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_empty_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the password field is empty</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_disabled_vs_deleted" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the record has been disabled, it could not be deleted because it is used in other tables.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_duplicate_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this name has been already used, you must use another one</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_duplicate_regnumber" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this registration number has been used already, you must use another one</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_duplicate_code" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this code has been used already, you must use another one</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_form_missing_fields" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>some of the required fields have not been filled out</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_form_wrong_fields" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>some fields have been filled out using a wrong format</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_group_deleted" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the group has been removed from database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_group_updated" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the user data have been updated</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_importing_complete" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>XML importing completed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_login_wrong" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>wrong user, password or code</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_authenticate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[SMTP] Could not authenticate.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_connect_host" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[SMTP] Could not connect to SMTP host.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_data_not_accepted" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[SMTP] Data not accepted.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_encoding" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Unknown encoding:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_execute" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Could not execute:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_file_access" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Could not access file:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_file_open" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Could not open file:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_from_failed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>The following From addresses failed:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_instantiate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Could not start mail function.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_mailer_not_supported" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Mailer is not supported.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_provide_address" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>You must provide at least one recipient email address.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_recipients_failed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[SMTP] The following recipients failed:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_signing" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Signing Error: </seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_smtp_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SMTP server error: </seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_empty_message" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Message body empty</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_invalid_address" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Invalid address</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_mailerror_variable_set" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Cannot set or reset variable: </seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_new_window_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this link will open a new browser window</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_process_completed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>process completed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_search_void" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>nothing found</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_unknown_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unknown email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_update_restrict" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the record cannot be updated because is in use in other tables.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_updated" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the record has been updated</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_upload_not" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unable to send the file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_upload_yes" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>file sent correctly</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_used_not_update" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the record cannot be updated because it is used in other tables. You can disable it with the [delete] button.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_user_deleted" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the user has been removed from database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_user_updated" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the user data have been updated</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_email_result" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Send results</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ERROR</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_group_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Group Management</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_group_select" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Group List</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_help" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Help</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_image_upload" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Add Image</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_login_form" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Authentication</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_main" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_message" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>MESSAGE</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_online_users" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Users Online</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_page_guide" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap :: Help</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_page_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>About RackMap</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_third_parties" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Third-party Software</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>User Management</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_importer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>User Importer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_select" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>User Selection</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_warning" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ATTENTION</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_add" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>add</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_clone" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>clone</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_anonymous" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>anonymous</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ascent" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ascent</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_attachment" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>attachment</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_author" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>author</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_birth_date" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>date of birth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_birth_place" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>place of birth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_cancel" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>cancel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_city" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>city</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_clear" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>clear</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_clock_timer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>clock / timer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_close" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>close</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_code" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>code</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_confirm" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>confirm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_continue" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>continue</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_country" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>country</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_database" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>database</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_date_format" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[yyyy-mm-dd]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_datetime_format" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>[yyyy-mm-dd hh:mm:ss]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_delete" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>delete</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_descent" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>descent</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>description</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_disabled" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>disabled</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_display_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>display all</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_display_user_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_edit" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>edit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_email_all_results" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>send emails</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_email_result" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>send email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_group" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>group</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>groups</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_group_select" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>list of groups</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_enabled" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>enabled</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_end" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>end</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_execute" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>execute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_filter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>filter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_firstname" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_fiscal_code" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>social security number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_generate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>generate</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_global_score" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>global score</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_guide" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>help</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_height" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>height</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_help" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>help</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_image" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>image</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_index" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>index</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_import" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>import</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_info" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>info</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ip" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>IP</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ip_range" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>authorized IP's</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_jump_menu" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>jump to navigation menu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_jump_timer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>jump to clock/timer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_lastname" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>surname</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_level" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>level</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_levels" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>levels</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_license" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>licence</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_list" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>list</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_login" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>authenticate</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_logout" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>logout</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_main" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>main</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_max_score" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>max score</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_minutes" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>min</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_modify" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>modify</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_name_first" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>first name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_name_last" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>last name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_next" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>next</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_notes" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>notes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_number_of_records" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>number of records</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_online" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>online</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_page" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>page</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>password</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_pdf" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>PDF</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_pdf_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>PDF</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_place" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>place</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_postal_code" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>zip</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_preview" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>preview</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_previous" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>previous</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_print" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>print</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_province" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>state/province</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_quote" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>quote</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_record_status" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>record status</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_recurrence" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>recurrence</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_regcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>registration number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_regdate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>registration date</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_reload" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>reload</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_right" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>right</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_skip_navigation" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>skip navigation menu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_search" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>search</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_select" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_selection" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>selection</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_show" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_start" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>start</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_stats" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>statistics</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_street" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>address</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_submit" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>submit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_text" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>text</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_time" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>time</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_time_begin" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>start time</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_time_end" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>end time</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_time_hhmmss" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>hh:mm:ss</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_time_mmss" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>mm:ss</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_timestamp" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>timestamp</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_type" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>type</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_update" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>update</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_updated_at" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>updated to</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_upload" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>send</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_upload_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>upload file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_user" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_username" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>username</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_users" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>users</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_weight" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>weight</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_width" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>width</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_no" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>no</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_xml" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>XML</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_yes" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>yes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_undo" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>undo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_redo" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>redo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_undo" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>undo last action</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_redo" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>redo last action</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_submit_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>submit file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_status" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>status</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_lock" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>lock</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_unlock" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unlock</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_locked" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>locked</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_unlocked" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unlocked</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_terminate" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>terminate</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_terminate_exam" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>terminate the exam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_comment" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>comment</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_translations" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Translations</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_position" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>position</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_registration" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>New User Registration</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_user_registration" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This form allows you to create a new user account.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_user_registration_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Don't have a login? Create an account.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_user_verification_sent" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>a verification message has been sent to this address</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_user_registration_ok" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>user successfully registered</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_i_agree" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>I agree to terms and agreements</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_timer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>timer [sec]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_fullscreen" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>fullscreen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_position" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>correct visualization order</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_order" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>order</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_keyboard_key" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>selection key</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_reaction" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>reaction</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_true" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>true</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_false" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>false</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_true_acronym" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>T</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_false_acronym" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>F</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_required" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>required</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_not_required" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>not required</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_details" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>details</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_enable" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>enable</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_disable" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>disable</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_copy" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>copy</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_move" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>move</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_from" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>from</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_to" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>to</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_check_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>check all</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_uncheck_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>uncheck all</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_with_selected" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>with selected:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_all" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>all</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_number" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_minimum" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>minimum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_maximum" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>maximum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_sum" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>sum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_sumsq" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>squared sum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_mean" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>mean</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_median" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>median</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_mode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>mode</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_range" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>range</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_variance" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>variance</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_standard_deviation" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>standard deviation</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_statistics" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>statistics</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_skewness" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>skewness</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_kurtosi" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>kurtosis</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_module_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the module</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_calendar" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>calendar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_backup_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Database Backup and Restore</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_backup" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>backup</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_restore" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>restore</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_backup_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>backup file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_backup" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>create a new backup</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_restore" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>restore the selected backup</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_backup_completed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>backup has been successfully created</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_restore_completed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>restore has been successfully created</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_restore_confirm" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>confirm restoring</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_edit_backups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page allows you to make and restore database backups (works only on POSIX systems with MySQL or PostgreSQL).
+Push the [backup] button to create a new RackMap database dump in compressed SQL format (structure and data).
+To restore an existing backup archive, select it and push the [restore] button.
+Note that before each restore the system automatically execute a new backup, so you can undo the operation.
+Backup files are stored on the "cache/backup" folder using the following syntax: YYYYMMDDhhmmss_rackmap_backup.sql.gz , where YYYYMMDDhhmmss are the digits of year (Y), month (M), day (D), hour (h), minutes (m), seconds (s).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_download" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>download</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_download" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>download the selected backup file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_change_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Change Password</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_change_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Change Email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_user_change_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can change your access password.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_user_change_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can change your email. A verification message will be sent to your new email address. Your account will be disabled until confirmation receipt.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_password_updated" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the password has been updated</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_email_updated" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the email has been updated</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_different_emails" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the emails are different</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_current_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>current password</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_new_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>new password</seg>
+			</tuv>
+		</tu>
+		<tu tuid="d_password_lenght" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>at least 8 alphanumeric characters</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_new_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>new email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>e-mail address</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_login_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>click on this link to access on this system</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_change_email" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>change email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_change_password" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>change password</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_admin" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>admin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_admin_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>administration area</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_public_link" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>public area</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_public" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>public</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_action" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>action</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_hide" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>hide</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_change_dir" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>change directory</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_size" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>size</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_date" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>date</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_permissions" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>permissions</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_filemanager" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Media File Manager</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_filemanager" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage multimedia files.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_used_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this file is used</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_delete_file_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unable to delete the selected file or directory</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_rename" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>rename</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_file_renamed" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the file has been renamed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_file_rename_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unable to rename the selected file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_file_already_exist" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this file or directory name is already used</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_file_manager" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>file manager</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_new_directory" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>new directory</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_create_directory" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>create</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_directory_created" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the directory has been created</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_directory_create_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unable to create the requested directory</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_directory" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>directory</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_table" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>table</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_visual" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>visual</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_select_media_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Select Object</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_select_media_file" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page allows you to insert a multimedia file object in the current description. Select the object you want to insert, fill description fields and click the [add] button.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_owner" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>owner</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_import_ok" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the import process has been successfully completed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_import_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the import process has failed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_config" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>configuration</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_oaconfig" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Configure Object types and Attributes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_datacenter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>datacenter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_datacenters" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>datacenters</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_datacenter_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Datacenter Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_datacenter_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage datacenters.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_datacenter_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>datacenter name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_datacenter_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>datacenter description</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_suite" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>suite</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_suites" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>suites</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_suite_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the suite/room</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_suite_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>description of the suite/room</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_suite_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Suite Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_suite_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage datacenter suites/rooms.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_rack" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_racks" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>racks</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>desciption of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_label" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>label</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_label" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>visible label on the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_tag" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>tag or serial number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_tag" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>tag to uniquely identify the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_height" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>rack height in units</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_position_x" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>X position</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_pos_x" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>X position of the rack inside the room</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_position_y" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Y position</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_pos_y" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Y position of the rack inside the room</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_rack_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Rack Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_rack_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage racks.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_child_of" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>child of</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ojbect_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object common name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_object_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object type description</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ojbect_label" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object visible label</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ojbect_tag" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object tag or serial number</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_object_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Objects Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_object_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage real and virtual objects.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_object_types" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object types</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_object_type" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>object type</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_object_type_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Object Type Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_object_type_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage object types (virtual or real).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_object_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the object type (must be unique)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_attribute" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>attribute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_attribute_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>attribute description</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_attribute_type" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>attribute data type</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_attribute_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the attribute (must be unique)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_attributes" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>attributes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_attribute_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Attribute Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_attribute_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage object attribute types.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_default" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>default value</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_attribute_default" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>default value for this attribute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_manufacturers" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>manufacturers</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_manufacturer_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Manufacturer Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_manufacturer_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage manufacturers.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_duplicate_mac" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this MAC address has been used already, you must use another one</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_manufacturer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>manufacturer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_manufacturer_name" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>manufacturer name</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_manufacturer_description" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>manufacturer defpartment and address</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_url" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>URL</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_manufacturer_url" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>URL of manufacturer website</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_mac" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>MAC</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_manufacturer_mac" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Unique MAC address associated to this manufacturer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_website" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>website</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_website_url" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>website URL</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_map_url" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Map URL</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_map_url" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>URL of online map service to locate the place where the datcenter is</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_floor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>floor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_suite_floor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>number of the floor where this suite/room is</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_suite_width" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>number of maximum racks that can be stored in a row</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_suite_height" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>number of maximum racks that can be stored in a column</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_starting_row" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>top row</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_starting_row" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>upper starting row (slot) on rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ending_row" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>bottom row</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_ending_row" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>lower ending row (slot) on rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_front" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>front</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_position_front" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select this option if the object fills the front of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_center" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>center</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_position_center" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select this option if the object fills the center of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_rear" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>rear</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_position_rear" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select this option if the object fills the rear of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_edit_item" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>edit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_main_index" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap main page</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_new" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>new</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_add_new_rack" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>add new rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_show_details" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>show details</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_go_up" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>^ up ^</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_select_manufacturer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Select Manufacturer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_search_keywords" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>search keywords</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_child_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>child objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_child_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Child objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_add_child_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>add child objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_include_child_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>if selected export child objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_include_connections" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>if selected export connections</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_quantity" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>quantity</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_child_name_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>name of the new childs: support the same syntax of sprintf PHP function</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_tenant" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>tenant</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_left" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>left</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_top" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>top</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_bottom" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>bottom</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_side" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>side</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_rack_side" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select a non empty option if the object is located on a side of the rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_dhcp_import" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>import dhcp data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_dhcp_importer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Import MAC and IP addresses from DHCP dump</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_import_dhcp" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can import MAC and IP addresses from DHCP dump data file. To create the DHCP dump file you can use the command: dhcpdump -i eth0 &gt; dhcpdata.txt</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_getos_import" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>import getos data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_getos_importer" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Import object data from GetOS scan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_import_getos" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can import object data from a GetOS file.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_items_found" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>items found</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_templates_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Template Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_templates_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage configuration and SSH command templates. A template name starts wit #~ and ends with the ~# character sequence.
+The objects and attributes names must be always in uppercase with only letters from A to Z and numbers from 0 to 9. You can also use the * character that indicates any letter from A to Z or any number from 0 to 9. Templates examples: #~OBJNAME~# : object name; #~OBJDESCRIPTION~# : object description; #~OBJLABEL~# : object label; #~OBJTAG~# : object tag or serial number; #~ATTRIBUTE_ABC~# : attribute ABC; #~CHILD_ABC_OBJNAME~# : name of the child object ABC; #~CHILD_ABC_OBJDESCRIPTION~# : description of the child object ABC; #~CHILD_ABC_OBJLABEL~# : label of the child object ABC; #~CHILD_ABC_OBJTAG~# :  tag or serial number of the child object ABC; #~CHILD_ABC_ATTRIBUTE_EFG~# : attribute EFG of the child object ABC. Note: use the SSH prefix for SSH templates.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_config_templates" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>configuration templates</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>template</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_header_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>header template</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_footer_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>footer template</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_body_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>body template</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_config_template" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>configuration template</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_script_generator" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>script generator</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_script_generator" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Script Generator</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_script_generator" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can generate configuration scripts based on templates and object attributes. Select objects to process and the templates to apply, then click on the [generate] button.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_generate_script" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>generate configuration script</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_selection filter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>selection filter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_selection filter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Selection Filter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_keywords" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>keywords</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_filter_objects" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>select objects using this filtering data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_script_saved" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>script file saved</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_file_saved" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>file saved</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_file_save_error" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>could not save file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_bulk_attribute_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Bulk Attributes Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_bulk_attribute_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>bulk attributes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_bulk_attribute_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can bulk change the same attribute on multiple objects.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_value" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>value</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_on" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ON</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_off" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>OFF</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_chassis_power" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>chassis power</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_reset" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>reset</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_reset" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>use this command to do a hard reset on the system - the operating system will not be shutdown properly!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_shutdown" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>shutdown</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_shutdown" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>use the this command to initiate a soft-shutdown of the OS via ACPI</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_power_off" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>power off</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_power_off" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>use this command to turn off the power of the system - the operating system will not be shutdown properly!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_power_on" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>power on</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_power_on" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>use this command to power on the system</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_ilo_no_access" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>unable to access ILO</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_view_datacenter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Datacenter View</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_view_datacenter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page display information on selected datacenter.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_view_suite" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Suite View</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_view_suite" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page shows the map of the selected suite. Each square represent a rack, click on it to display details.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_view_rack" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Rack View</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_view_rack" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page shows all the objects installed on the selected rack. Click on a object to display details.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_view_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Object View</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_view_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>This page shows the details of the selected object and its child objects.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_view" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>view</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_map" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>map</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>ssh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>connecto to server via SSH</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_refresh" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>refresh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_refresh" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>reload status</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ilo_identify" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>identify</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_ilo_identify" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>turns on the UID Light for 30 seconds</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_commands" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>commands</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connection" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>connection</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connections" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>connections</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_connection_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Connection Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_connection_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage connections between objects.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_duplicate_connection" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this connection has been already entered</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_add_for_update" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>this connection do not exist, use the [add] button instead</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_connection_loop" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the objects must be different - you cannot create a loop on the same object</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>color</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_cable_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>cable color</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_current_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>current color</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_selected_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>selected color</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connected_to" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>connected to</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_cable_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>cable color</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_ssh_commander" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH Commander</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_ssh_commander" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can generate a script to send bulk "expect" commands to multiple servers based on templates and object attributes. Select objects to process and the templates to apply, then click on the [generate] button. WARNING: when selecting objects be sure they are all of the same type and the right SSH header and footer are selected. When generated, download the script and delete the copy on server, check it and mark it as executable.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ssh_commander" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH commander</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_generate_ssh_commands" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>generate executable script</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_send" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>send</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_object_color" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>color used to represent this object type on graphs</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_network_map" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>network map</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_view_network_map" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Network Map</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connection_first" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>first connection</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connection_second" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>second connection</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_missing_tokens" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>the following tokens are missing</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_tools" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>tools</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_tools" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Tools</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_repeat" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>repeat</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_connection_type_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Connection Type Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_connection_type" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>connection type</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_connection_type_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can manage the connection types (physical cable conenctions or virtual conenctions between objects).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_bulk_object_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Bulk Child Objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_bulk_object_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>bulk child objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_bulk_object_editor" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can add child objects in bulk.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_export_data" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Export Data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_export_data" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>export data</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_export" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>export</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_export_data" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can export RackMap data in several formats. The "exclude" field allows you to remove some fields from the output. You can use the following keywords to exclude fields from the output of the report. Use these keywords in a space separated list in the exclude field of the form: * user: removes any reference to any field containing the word user, for example an ILO username; * password: removes any reference to a field containing the word password, an example is the iLO password.; * license: removes any reference to any field containing the word license, for instance a software license or ILO upgrade license; * child: removes any reference to an object that is part of larger device or parent, for example hard drive, PSU, processor, RAM module etc; * connection: removes the connection section for example power, virtual or network connections between objects; * permissions: Removes all permission tables relating to objects; * object: removes any detailed information about every child and parent object - only the reports such as rack view and capacity will be displayed; * capacity: this removes the capacity report from the export. ** Note: You can add any other field in the system to exclude, however the above are the main fields recommended for use.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_exclude" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>exclude</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_exclude_pattern" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>comma or space separated list of field pattern to exclude from results</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_format" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>format</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_export_format" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>export data format</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_rackmap_report" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap Report</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_datacenter_report" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Datacenter Report</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_index" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Index</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_table_of_content" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Table Of Content</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_datacenter" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Datacenter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_suite" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Suite</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_rack" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Rack</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Object</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_options" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>options</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_virtual" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>virtual</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_virtual_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>set this option to true if the object is virtual (not a physical object)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_sshkey" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH Key</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_sshkey" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH Key to be installed on remote servers</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_otpkey" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>OTP Key</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_otpkey" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>One Time Password Secret Key</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_otp_qrcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>OTP QR-Code</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_otp_qrcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>RackMap uses a 2-step verification process that requires you to enter two pieces of information before you can access the system. The required information is the standard RackMap password and the verification code generated by your smartphone. This prevents hackers from accessing your account if they only have your password or phone. However, it also means that you will always need to have your phone at hand whenever you want to login to your RackMap Account.&lt;br /&gt;&lt;br /&gt;You must download and install the &lt;a href="http://support.google.com/accounts/bin/answer.py?hl=en&amp;answer=1066447"&gt;Google Authenticator&lt;/a&gt; app on your smartphone. When you have downloaded and installed the app you can use the following code, or scan the QR-Code:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_otpcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>OTP code</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_otpcode" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>One Time Password code generated using your smartphone application</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_login_brute_force" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>You are trying to log too many times and too fast, please wait the following number of seconds before the next attempt:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_permissions" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>permissions</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_permissions" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Permissions</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ssh_access_list" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH Access</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ssh_access_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>SSH access groups</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_bulk_access_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>Bulk Permissions Editor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_bulk_access_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>bulk permissions</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_bulk_access_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>With this form you can bulk change the groups allowed to manage or access the objects.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_user_groups" datatype="plaintext">
+			<tuv xml:lang="EN">
+				<seg>User Groups</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_registration_verification" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Registration Verification</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_email_registration" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd"&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"&gt;&lt;body&gt;&lt;p&gt;This is an automated response to verify a &lt;a href="#RACKMAPURL#"&gt;RackMap&lt;/a&gt; New User Registration Request.&lt;br /&gt;Request verification for email #EMAIL# submitted by remote IP #USERIP#.&lt;br /&gt;If this message has been sent in error, please disregard.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;TO CONFIRM THE REGISTRATION USE THE FOLLOWING LINK:&lt;br /&gt;&lt;a href="#SUBSCRIBEURL#"&gt;#SUBSCRIBEURL#&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_overwrite" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>overwrite</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_overwrite_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>overwrite ssh keys</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_sshkey_overwrite" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Destroy all existing ssh authorization keys (including the ones not managed by RackMap) and replace them with the new ones.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_empty_auth_sshkeys" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Unable to update remote keys because no group has been selected and the overwrite mode is on!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_update_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>set SSH keys</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_update_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>update remote authorized ssh keys</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_unable_to_update_ssh_keys" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>unable to update remote authorize_keys file</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_search_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Search Objects</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_search_object" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>With this form you can search objects on RackMap by using predefined filters and keywords.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_read" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>read</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_ipmi" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>IPMI</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_read" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to read information</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_add" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to add new record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_update" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to update existing records</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_delete" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to delete existing records</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_ipmi" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to use IPMI commands to identify, shutdown, power-off and reset a remote device</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_ssh" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>permission to access the remote device via ssh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="h_perm_select" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>select the group</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_not_authorized_to_view" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>you are not authorized to view this record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_not_authorized_to_edit" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>you are not authorized to edit this record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="m_not_authorized_to_add_child" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>you are not authorized to add this record</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_export_objects_csv" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Export Objects List in CSV</seg>
+			</tuv>
+		</tu>
+		<tu tuid="hp_export_objects_csv" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>With this form you can export a list of all objects in CSV format.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_export_objects_csv" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>export objects csv</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_guest_list" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Guest List</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_capacity" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>capacity</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_capacity" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Capacity</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_capacity_report" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Capacity Report</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_used" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>used</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_free" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>free</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_total" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>total</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_percentage" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>percentage</seg>
+			</tuv>
+		</tu>
+		<tu tuid="t_free_1u_slots" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>Free 1U slots</seg>
+			</tuv>
+		</tu>
+		<tu tuid="w_port" datatype="plaintext">
+			<tuv xml:lang="EN">
+    			<seg>port</seg>
+			</tuv>
+		</tu>
+ </body>
+</tmx>

@@ -1,0 +1,7 @@
+RackMap - INSTALL
+============================================================
+
+For installation instruction please visit the website at:
+http://www.rackmap.net
+
+============================================================

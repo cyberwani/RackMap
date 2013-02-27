@@ -1,0 +1,281 @@
+1.0.043 (2013-01-10)
+	- A new interface to import data from GetOS tool was added.
+	- TCPDF library was updated.
+
+1.0.042 (2012-11-19)
+	- The minimum level to view objects was set to 2.
+
+1.0.041 (2012-11-14)
+	- A "clone" button was added on object editor.
+
+1.0.040 (2012-11-07)
+	- TCPDF library was updated.
+	- Users and groups permissions were fixed.
+
+1.0.039 (2012-04-03)
+	- TCPDF library was updated, including fonts.
+
+1.0.038 (2012-03-30)
+	- TCPDF library was updated, including fonts.
+	- New comments were added on Export Data page.
+
+1.0.037 (2012-03-29)
+	- Delete function onobject editor was fixed.
+
+1.0.036 (2012-03-21)
+	- Capacity report list was added.
+	- Capacity report on Rack View was improved.
+	- Capacity report info was added on PDF export.
+
+1.0.035 (2012-03-20)
+	- Capacity report was added on rack view and exported data.
+
+1.0.034 (2012-03-19)
+	- Export funtion was fixed.
+
+1.0.033 (2012-03-07)
+	- Network view was fixed.
+
+1.0.032 (2012-03-06)
+	- Rack View was expanded to include the Guest List.
+	- Export function was expanded to include the Guest List.
+
+1.0.031 (2012-03-05)
+	- Export data function was fixed.
+
+1.0.030 (2012-02-17)
+	- A page to export all objects list in CSV format was added.
+	- Some time tollerance was added to One-Time-Password check.
+
+1.0.029 (2012-02-10)
+	- Rack View was fixed to get ILO information faster.
+
+1.0.028 (2012-02-09)
+	- On export data you can now set the "object" string on exclude field to remove object details from PDF export.
+
+1.0.027 (2012-02-01)
+	- PDF export was fixed.
+
+1.0.026 (2012-01-30)
+	- Rack View was fixed.
+
+1.0.025 (2012-01-27)
+	- Rack View is now able to display multiple objects on the same row.
+
+1.0.024 (2012-01-23)
+	- Database schema was chaned to include group permission tables to datacenters, suites, racks and objects.
+	- A new permission system based on groups was added for datacenters, suites, racks and objects (editor, view, export and bulk permission pages were changed).
+
+1.0.023 (2012-01-17)
+	- Objects Editor now includes cliccable path for selected object.
+
+1.0.022 (2012-01-16)
+	- Hashing algorithm for passwords was changed to be more secure.
+	- Seach page was moved from index to "view" menu.
+	- Index page now shows a plan view for all suites.
+
+1.0.021 (2012-01-13)
+	- Bulk SSH Access Editor is now able to update remote servers (NOTE: the SSH key of apache user on RackMap server must be installed on all remote servers).
+
+1.0.020 (2012-01-11)
+	- Some extra fields from index page were removed.
+
+1.0.019 (2012-01-11)
+	- Verification page now includes OTP QR-Code.
+	- Data filtering on Bulk editors was improved to include child objects, links and better selection filters.
+	- Index page now includes a search engine for objects.
+	- User registration feature was tested and fixed.
+
+1.0.018 (2012-01-10)
+	- Database schema was changed to include new features.
+	- User Editor now includes nw fields to set the SSH key and the One Time Password (OTP) Secret key (to be used with Google Authenticator application on a smartphone).
+	- Login system now includes One-Time Password feature and new security checks to avoid brute force attacks and OTP token reuse.
+	- An SSH Access List for groups was added to the Objects Editor (you have to set the "*SSH" attribute to display it).
+	- An SSH Access List for groups was added to the Object View and data export, including PDF.
+	- Bulk Attributes Editor was improved.
+	- Bulk Child Objects was improved.
+	- Editor to change SSH Access groups was added.
+	- Group Management editor was changed to include the list of users that belongs to theselected group.
+	- Exporting functions were fixed and improved to include filtering and groups information.
+	- User registration functions were added.
+
+1.0.017 (2012-01-06)
+	- Database schema was changed.
+	- A new field "virtual" was added on Object Type Editor to distinguish between physical and virtual objects.
+	- On Objects Editor you can now set a virtual object to be child of multiple parents.
+
+1.0.016 (2012-01-06)
+	- TCPDF library was updated.
+
+1.0.015 (2012-01-06)
+	- PDF export function was improved with new filtering options.
+
+1.0.014 (2011-12-14)
+	- TCPDF library was updated.
+	- PDF export was added.
+	- Minor bugs were fixed.
+	- RackMap logo was replaced with a new one.
+
+1.0.013 (2011-12-12)
+	- Several minor bugs were fixed.
+	- Data export feature was added (check the tools menu).
+
+1.0.012 (2011-12-12)
+	- Backup Editor was fixed.
+
+1.0.011 (2011-12-12)
+	- Object Editor was fixed (connections type was not correctly updated).
+
+1.0.010 (2011-12-09)
+	- Some problems on connections editor and object editor were fixed.
+
+1.0.009 (2011-12-09)
+	- A bug on ILO connection was fixed.
+
+1.0.008 (2011-12-09)
+	- Connections links were fixed.
+
+1.0.007 (2011-12-09)
+	- Bulk attribute editor was fixed.
+	- Bulk Child Objects tool was added.
+	- Child objects add feature on object editor was improved.
+
+1.0.006 (2011-12-08)
+	- A broken link to objects editor was fixed.
+
+1.0.005 (2011-12-08)
+	- Color contrast on SVG map is now automatically selected.
+
+1.0.004 (2011-12-08)
+	- Several bugs were fixed.
+
+1.0.003 (2011-12-08)
+	- Database schema was changed.
+	- New editor for connection types was added.
+
+1.0.002 (2011-12-07)
+	- All views and editor pages were updated.
+
+1.0.001 (2011-12-05)
+	- Links on SVG network map were converted from absolute to relative.
+
+1.0.000 (2011-11-30)
+	- Main menu was reorganized and links to external applications were added.
+	- Copyright information and license were updated.
+	- Source code was cleaned up.
+
+--------------------------------------------------------------------------------
+
+0.0.133 (2011-11-29)
+	- Script generator was improved and error messages about missing tokens are now displayed.
+
+0.0.132 (2011-11-29)
+	- Links from edit to view were fixed.
+
+0.0.131 (2011-11-29)
+	- An error on object editor was fixed.
+
+0.0.130 (2011-11-25)
+	- Network map algorithm was changed from dot to fdp.
+
+0.0.129 (2011-11-25)
+	- Minor fixes on object view.
+
+0.0.128 (2011-11-25)
+	- Some buttons were added on Object Editor.
+
+0.0.127 (2011-11-25)
+	- Some connections were imported.
+	- Connection fields were added on Object Editor.
+	- Database schema was updated.
+
+0.0.126 (2011-11-24)
+	- Object links on network map were fixed.
+
+0.0.125 (2011-11-24)
+	- Network map SVG was embedded in HTML code (works with Firefox, Internet Explorer 9, Google Chrome, and Safari -- not work in Opera).
+
+0.0.124 (2011-11-24)
+	- Functions to create an SVG view of the network were added.
+	- Pan and zoom controls were added on SVG.
+	- A new menu item to display network map was added.
+
+0.0.123 (2011-11-23)
+	- FUnctions to creadte DOT description of the network were added.
+
+0.0.122 (2011-11-22)
+	- Some buttons were added to edit interfaces to switch from edit to view mode.
+
+0.0.121 (2011-11-20)
+	- Script generator was modified to display objects only when the selection filter is set.
+	- SSH commander was added to send bulk SSH commands to multiple servers.
+
+0.0.120 (2011-11-18)
+	- A bug on object editor was fixed.
+
+0.0.119 (2011-11-17)
+	- Connection Editor was fixed.
+	- Connections on Object View page was fixed.
+
+0.0.118 (2011-11-17)
+	- Cable color was added on Object View page.
+
+0.0.117 (2011-11-17)
+	- Connections Editor was fixed.
+	- Connections are now displayed on Object View page.
+
+0.0.116 (2011-11-17)
+	- Connections Editor was added.
+
+0.0.115 (2011-11-16)
+	- Object View interface was improved.
+
+0.0.114 (2011-11-15)
+	- IP addresses were converted to links.
+
+0.0.113 (2011-11-15)
+	- Some additional information and commands were added on Object View.
+
+0.0.112 (2011-11-15)
+	- Some links were fixed.
+
+0.0.111 (2011-11-15)
+	- SSH link was added on object view page.
+
+0.0.110 (2011-11-15)
+	- Various view pages were created (check the new "view" menu).
+	- Update of ILO information was improved.
+
+0.0.109 (2011-11-14)
+	- Async update of rack objects were added.
+
+0.0.108 (2011-11-14)
+	- ILO timeouts were fixed.
+
+0.0.107 (2011-11-14)
+	- ILO status and commands were added.
+
+0.0.106 (2011-11-13)
+	- Script generator was fixed.
+	- Bulk attributes editor was added.
+
+0.0.105 (2011-11-11)
+	- Script generator was fixed.
+
+0.0.104 (2011-11-11)
+	- Script Generator was improved.
+
+0.0.103 (2011-11-11)
+	- Script Generator was added.
+
+0.0.102 (2011-11-10)
+	- Fixed production script.
+
+0.0.101 (2011-11-10)
+	- Changed default package name.
+
+0.0.100 (2011-11-10)
+	- First version on local GIT repository.
+
+0.0.000 (2011-10-31)
+	- First version based on TCExam Framework (http://www.tcexam.org)
